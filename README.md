@@ -2,7 +2,7 @@
 
 ## Introduction
 This project focuses on detecting drifts in machine learning (ML) models when the data changes over time. The aim is to identify both data drift and concept drift by employing 
-various techniques such as KL divergence, chi-square test, etc. Different ML models are trained on different datasets to analyze their performance in detecting drift.
+various techniques such as KL divergence, chi-square test, Population stability index (PSI) etc. Different ML models are trained on different datasets to analyze their performance in detecting drift.
 
 ## Project Process
 
@@ -33,10 +33,6 @@ We developed custom algorithms to detect both data drift (changes in input data)
 ### 7. Evaluation
 The performance of each model in detecting drifts was evaluated using various metrics, including precision, recall, F1-score, and area under the ROC curve (AUC). We compared the 
 effectiveness of different models and techniques in identifying data and concept drift under different scenarios.
-
-### 8. Model Deployment
-The best-performing drift detection model(s) were deployed in a production environment using containerization techniques such as Docker. We implemented monitoring systems to 
-continuously monitor for drifts and trigger alerts when detected.
 
 ## Results
 Our experiments demonstrate that the developed drift detection system is effective in detecting both data and concept drifts in ML models. The system achieved high accuracy and 
